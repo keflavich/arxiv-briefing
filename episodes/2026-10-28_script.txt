@@ -1,0 +1,107 @@
+Good morning Adam. This is your arXiv briefing for Wednesday, October 28th, 2026. Today's astro-ph listing has 99 new submissions and 25 cross-lists, and I picked 20 papers. It's a good day for your corner of the field: benty-fields put a Central Molecular Zone outflow paper at number one and a pair of Milky Way star-formation-rate papers right behind it.
+
+Salt watch: no sodium chloride, potassium chloride, or other alkali halide papers today. Sodium shows up exactly once, as the sodium-23 nucleus inside Betelgeuse in an axion paper, which I'll mention for completeness. On the astrochemistry and refractory side, Tom Millar has a silicon-carbide chain paper on I R C plus 10 2 16, there's a P A H survival paper for an active nucleus, and J W S T finds amorphous silicates in the interstellar comet.
+
+Part one. The rundown.
+
+Galactic Center.
+
+Number 1. Sen-Di Bo, Xing Lu, Tian-Yu Tu and colleagues, on a collimated protostellar outflow in Sagittarius C. Benty-fields rank one. Deep dive coming.
+
+Galactic star formation and the interstellar medium.
+
+Number 2. Patrick Hennebelle, Paolo Suin, Georges Abboudeh and colleagues, "What sets the star-formation rate in the Milky Way?", paper one. Benty-fields rank seven. Deep dive coming, and I'll fold paper two into it.
+
+Number 3. Paolo Suin, Patrick Hennebelle and colleagues, paper two in that series, rank two. They extract clumps from the same kiloparsec-scale M H D runs with the HOP algorithm and compare them to the Hi-GAL compact source catalog. Mass and size distributions agree, and they find "a consistently linear relation between mass and SF rate" for the simulated clumps, independent of initial conditions. They report "tentative evidence in favour of a gravity-regulated regime" at sub-parsec scales. Figure 2 compares the size and mass distributions directly with Hi-GAL, and Figure 3 is the star-formation-rate versus mass relation.
+
+Number 4. A. Aberfelds, A. Sanna, L. Moscadelli and colleagues, POETS paper ten, rank twelve. The V L A in A configuration searched for 6.7 gigahertz Class Two methanol masers toward 22 POETS fields; 60 percent show detections and five are new. They estimate that "more than 30 % of the whole population is undetected" at typical interferometric sensitivity, and that "90 % of them are distributed within radii of 3000 au only" from the young star. The best figure is Figure 5, maser luminosity against local free-free emission, which supports their claim that "the radio continuum provides the dominant source of seed photons".
+
+Number 5. Facundo Perez Paolino, Ronan Kerr and Jonathan Gagne test pre-main-sequence tracks on Canis Major North, a 23 million year old association, using Gaia plus SPHEREx spectral energy distributions. Unspotted SPOTS models land near the lithium age, while PARSEC returns 55 million years. The headline is blunt: "No grid returns a temperature-independent age." Look at Figure 5, which splits the H R diagram into cool, intermediate and warm stars and shows the age drift by temperature.
+
+Number 6. Michael Healy-Kalesh, Sara Saeedi, Manami Sasaki and colleagues, rank thirteen, report an eROSITA X-ray ring around the recurrent nova V745 Scorpii, which they propose as "the first NSR to be captured through its X-ray emission", where NSR means nova super-remnant, a cavity carved into the interstellar medium by repeated eruptions. Figure 2 shows the ring, Figure 5 overlays the infrared cavity profile, and Figure 6 shows simulated remnants for several ambient densities.
+
+Number 7. Marat Zaidyn, Aknur Sakan and colleagues, rank 34, apply network centrality measures to 871 dynamically young Gaia open clusters to quantify mass segregation. All three network measures track the classical mass segregation ratio, "strongest for closeness centrality", while the link to dynamical age is weak. Figure 1 is a nice picture of a k nearest neighbor graph next to a minimum spanning tree for one cluster.
+
+Astrochemistry.
+
+Number 8. Tom Millar, sole author, on silicon-carbon chain molecules in I R C plus 10 2 16. Rank 55. Deep dive coming.
+
+Number 9. Grant Donnelly, J D Smith, Sebastian Hoenig and colleagues, rank fourteen, map the 3.3 micron P A H feature with J W S T NIRSpec in the central 200 parsecs of the Seyfert N G C 41 51. P A H emission reaches the inner 50 parsecs and brightens toward the nucleus, which runs against the expectation that small P A Hs "could not survive near an active galactic nucleus". They also find that "the AGN may also destroy PAHs in these regions" within the ionized narrow line region. Compare Figure 3, the P A H map, with Figure 4, the argon six map; Figure 8 plots P A H flux against H two emission pixel by pixel.
+
+Number 10. Maxence Lefevre, Franck Lefevre, Anni Maattanen and colleagues, rank 39, put sulfur allotrope and sulfur hydride chemistry into a 3D Venus climate model for the first time. Below the clouds, S eight is the dominant allotrope in the gas phase, and condensed polysulfur extends from 30 kilometers to above 100. Their verdict on the mystery ultraviolet absorber: "Polysulfur can therefore not be the unknown absorber at cloud-top altitudes." Figure 6 shows zonal maps of gas and condensed allotropes, and Figure 8 tracks sulfur dioxide with and without the new chemistry.
+
+Number 11. Renzhi Su and Minfeng Gu, a cross-list at rank 110, prove that the optical depths of any O H lambda-doublet quartet "obey one exact linear relation in every velocity channel", with no Rayleigh-Jeans approximation. It holds for thermal and non-thermal gas, "for masers and for conjugate gas", and they pitch it as "a powerful tool for measuring the variation of fundamental physical constants". Figure 2 illustrates conjugate excitation of the 18 centimeter satellite lines. This one is useful for anyone fitting O H absorption.
+
+Salt watch.
+
+Number 12. Nicholas Revel, Baldeep Grewal, Anupam Ray and a coauthor search for axion-like particles produced by nuclear de-excitation of sodium-23 and manganese-55 inside Betelgeuse, using INTEGRAL and NuSTAR spectra. They "find no significant excess" and set coupling limits; the sodium limits are strongest, while the manganese limits are "considerably more robust against such uncertainties" in Betelgeuse's evolutionary stage. That's the only sodium today, and it's nuclear, so salt chemistry stays empty. Figure 3 shows the spectra around the lines, and Figure 9 shows how much the limits move with Betelgeuse's evolutionary stage.
+
+Big news.
+
+Number 13. Cristina Thomas, Michael Kelley, David Harker and colleagues, J W S T MIRI spectroscopy of interstellar comet three I ATLAS. Rank nine. Deep dive coming.
+
+Number 14. Yanbin Yang, Feiyu Zhao, Quan Guo and colleagues decode Starlink V H F telemetry packets with the 21 Centimeter Array. Rank 68. Deep dive coming.
+
+Number 15. Louise Welsh, Ryan Cooke, Michele Fumagalli and colleagues, rank 29, use Keck KCWI to find two Lyman alpha emitters near a damped Lyman alpha system with iron abundance below one five-thousandth of solar, at redshift 3.08. They call it "the first detection of star formation in the environment of a chemically near-pristine DLA". Helium two limits are only upper limits, so the metal-poor claim rests on weak, narrow Lyman alpha. Figure 3, the narrow-band image, is the one to see.
+
+Number 16. Renzhi Su and Minfeng Gu again, with a second paper today: a serendipitous giant odd radio circle in ASKAP data around the brightest cluster galaxy of Abell 36 39, 0.63 megaparsecs across, "one of the largest single ORCs known". With its nucleus, the radio luminosity is "higher than that of any other ORC reported so far". Figure 1 is the overlay on the D E S I color image, and Figure 3 shows a quiescent host star-formation history.
+
+Number 17. Rhys Seeburger, Sara Saracino, Sebastian Kamann and colleagues, rank 38, disentangle new FLAMES spectra of N G C 18 50 B H 1 in the Large Magellanic Cloud. They find a 1.7 solar mass puffed-up donor and a rapidly rotating 5.2 solar mass luminous companion: "While this rules out the black hole hypothesis, tensions with the analysis of the original data remain." Figure 4 shows the disentangled components around H gamma, and Figure 10 shows companion mass against inclination.
+
+Methods and oddballs.
+
+Number 18. Glenn White presents ASTRA, an autonomous pipeline combining dimensional analysis, causal models and Bayesian evidence. Rank 41. One test case is Herschel filament scaling, shown in Figures 1 and 5. The striking comparison is that agentic language models "adopt a supplied erroneous benchmark in all six trap runs", while ASTRA's physics checks catch it. White is candid: "These are recovery validations and capability demonstrations rather than discoveries".
+
+Number 19. Alessandro Rizzo, Nicolo Parmiggiani, Andrea Bulgarelli and colleagues recast AGILE gamma-ray source likelihood fitting as a QUBO problem for quantum annealing. On simulated maps the method "identifies the correct grid node among the candidate positions in 97% of the maps". Note that this used simulated annealing on classical hardware; real quantum annealers come later. Figure 5 compares QUBO and classical detection significance.
+
+Number 20. Sameera Viswakula, a statistics cross-list, on scatter plots that hide tied data. In one Likert survey, "98.7% of the data lie under other points and the plot shows only 36 dots". The fix is geometric petal tiers in sunflower plots, released as an R package. Figure 6, Galton's parent and child heights, shows only 102 visible points for 928 children. Handy for anyone plotting discretized catalog quantities.
+
+Part two. Deep dives.
+
+Deep dive one. The Sagittarius C outflow.
+
+Sen-Di Bo, Xing Lu and colleagues follow up one of 43 candidate outflows that ALMA found in three C M Z clouds. Sagittarius C F 2 has "a highly collimated lobe extending approximately 0.8 pc in projection". They combine three S I O transitions, J equals 2 to 1, 5 to 4, and 8 to 7, and run both L T E and non-L T E models to get column density, H two density and temperature along the lobe.
+
+The result: low S I O rotational temperatures but higher kinetic temperatures, which they read as "subthermal excitation". Together with the elongated morphology, the position-velocity structure, and the alignment of the redshifted lobe with J W S T infrared knots, these "favor jet-dominated entrainment", although a broader disk wind near the source remains possible. The asymmetry between the two lobes they attribute to dense gas in the path of one lobe and "feedback from a nearby HII region imposing different pressure on its two sides".
+
+What to look at. Figure 1 is the multi-wavelength overview, with blue and red S I O contours on the 1.3 millimeter continuum. Figure 3 gives position-velocity diagrams along the blue lobe for all S I O lines; that's where the jet case lives or dies. Figures 5 and 6 show forward-modeled and RADEX excitation and column density as a function of offset from the protostar.
+
+A skeptical read. Three S I O lines constrain density and temperature only loosely when the excitation is subthermal, so check how degenerate the RADEX solutions in Figure 6 are. The infrared knot alignment is in projection, and the H two region pressure argument is qualitative. Still, a well-collimated jet-driven outflow in the C M Z is a useful data point for whether disk-jet physics changes in the Galactic Center environment.
+
+Deep dive two. What sets the Milky Way's star-formation rate.
+
+Hennebelle, Suin and colleagues run kiloparsec-scale turbulent M H D boxes tuned to solar-neighborhood conditions, with adaptive zooms down to 0.03 parsecs. For Galactic column densities and velocity dispersions, the star-formation rate comes out close to the Milky Way value. Their decomposition: "turbulence provides multiscale support that lowers the SFR by more than an order of magnitude" relative to free-fall collapse, and feedback from ionizing radiation and outflows "reduces the SFR by an additional factor of 3-10". The conclusion is that turbulence plus feedback "limits the star formation efficiency to only a few percent".
+
+What to look at. Figure 5 has the measured sink-particle star-formation rate. Figure 6 compares it with what they call a "Specious SFR from the density PDF", alongside the free-fall model, which shows how badly density-PDF estimates miss. Figure 7 is the Schmidt-Kennicutt relation across scales against several observational sets.
+
+A skeptical read. The feedback factor of 3 to 10 is inferred, since the turbulence-only runs need it to match. And in Figure 7 the authors themselves stress that "for the HI-Gal clumps the SFR is not directly measured but the result of a model", so the clump-scale agreement in paper two partly compares a simulation with a model. The linear mass to star-formation-rate relation in paper two is interesting, but it could partly reflect how HOP defines clumps; Figure 6 of paper two tests HOP parameters and deserves a look. For C M Z work, the open question is how these numbers shift under strong external pressure and shear.
+
+Deep dive three. Silicon-carbon chains around I R C plus 10 2 16.
+
+Tom Millar models linear silicon carbide chains, S i C 3 through S i C 6 being already detected in the carbon-rich A G B envelope, and extends the network to S i C 8, giving the first detailed comparison between observations and models for this family. Using a mix of measured and postulated rate coefficients, the model reproduces observed column densities to within about a factor of four. It predicts that S i C 7 and S i C 8 sit a factor of 2 to 4 below S i C 6, and concludes that detection "will be challenging but that astronomical searches should be undertaken".
+
+A key chemical point: neutral-neutral reactions of the parent S i C 2 with hydrocarbon radicals matter, and neglecting them cuts carbide columns by up to about a factor of six for S i C 6 and S i C 7.
+
+What to look at. Figure 1 shows fractional abundances against radius, so you can see the shell structure. Figure 6 breaks down formation and destruction rates of S i C 6 by reaction channel, which tells you exactly which postulated rates hold up the model. Figure 7 is Model 2, with the S i C 2 plus C n H reactions switched off.
+
+A skeptical read. "Postulated" rate coefficients carry the result, so a factor of four agreement is consistent with the uncertainties rather than a strong test. For your refractory interests, this is the gas-phase side of silicon carbide dust formation, and the same envelope hosts the metal halides, so the radial abundance profiles are worth comparing with your salt work.
+
+Deep dive four. Amorphous silicates in three I ATLAS.
+
+Thomas, Kelley, Harker and colleagues took J W S T MIRI low-resolution spectra of the third interstellar object after perihelion, at 2.21 A U. They see "a prominent 10 micron silicate emission feature with a broad, smooth shape that is distinct from those commonly observed in Solar System comets". Thermal models with amorphous carbon, olivine and pyroxene "strongly favor a pyroxene-dominated, amorphous silicate composition". The "best-fitting crystalline abundance is zero", with an "upper limit of 5.3% on the crystalline fraction". They also flag a feature near 6.83 microns "consistent with aliphatic C-H-bearing material".
+
+The interpretation: the dust "experienced little thermal processing", consistent with earlier reports of unusual volatile and isotopic compositions.
+
+What to look at. Figure 2 is the money plot: the 3I silicate feature shape compared with Solar System comets. Figure 3 is the joint posterior of silicate to carbon ratio against grain size, which shows the degeneracy they mention. Figure 4 walks along that ridge of solutions.
+
+A skeptical read. A single epoch at one heliocentric distance limits what you can say about grain evolution, and the grain size versus composition degeneracy is real. The near-zero crystalline fraction stands out because many Solar System comets show crystalline forsterite peaks. Expect this result to get wide press.
+
+Deep dive five. Starlink telemetry at 137 megahertz.
+
+Yang, Zhao, Guo and colleagues characterize Starlink V H F telemetry, tracking and command transmissions picked up by the 21 Centimeter Array in China. They demodulated and decoded the signals, finding two valid packets at 137.055 megahertz about 100 seconds apart. "A blind comparison with 11 305 active satellites identifies STARLINK-32838" as the transmitter, confirmed by differential Doppler. The satellite was raising its orbit at the time, but re-analysis of earlier E D A 2 detections shows emissions outside orbit raising, so the authors conclude that this interference "should not be considered solely in the context of orbit raising". The stronger packet's estimated flux density is about 9 mega-jansky at 1000 kilometers.
+
+What to look at. Figure 1 shows the dynamic spectra of both events. Figure 2 is the satellite identification, residuals against all active satellites. Figure 8 shows the altitude history of this spacecraft and its launch group.
+
+A skeptical read. Two packets on one night form a thin sample, and the flux agrees with earlier work only at the order-of-magnitude level. The method, decoding the packets to identify the transmitter, is the durable contribution, and it matters for S K A Low.
+
+That's the briefing. If you read one paper today, make it the Sagittarius C outflow.
