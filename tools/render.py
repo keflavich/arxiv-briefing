@@ -25,6 +25,10 @@ SPEAK = [
     (r"STARLINK-(\d\d)(\d\d\d)", r"Starlink \1 \2"),
     (r"\b11 305\b", "eleven thousand three hundred five"), (r"C-H-bearing", "CH bearing"),
     (r"\bHi-GAL\b|\bHI-Gal\b", "HiGAL"), (r"\bV(\d)(\d\d)\b", r"V \1 \2"),
+    (r"\bHe I\b", "helium one"), (r"\b10Be\b", "beryllium ten"),
+    (r"\bM(\d{1,3})\b", r"M \1"), (r"\bType IIn\b", "type two N"), (r"\b2019qem\b", "twenty nineteen Q E M"),
+    (r"GPUPhot", "GPU Phot"), (r"\bGHz\b", "gigahertz"), (r"\b13CO\b", "thirteen CO"), (r"H-alpha", "H alpha"), (r"\bCO three-two\b", "CO three two"),
+    (r"([a-zA-Z])-(\d)", r"\1 \2"),
     (r"%", " percent"),
 ]
 def _pairs(d):
@@ -37,6 +41,7 @@ def _frb(m):
 EXTRA = [
     (r"\bNGC (\d{3,4})\b", lambda m: "NGC " + _pairs(m.group(1))),
     (r"\bIC (\d{3,4})\b", lambda m: "IC " + _pairs(m.group(1))),
+    (r"\bHD (\d{4,6})\b", lambda m: "HD " + " ".join(m.group(1))),
     (r"\bFRB (\d{8})([A-Z])\b", _frb), (r"CHIME/FRB", "CHIME FRB"),
 ]
 def speakable(t):

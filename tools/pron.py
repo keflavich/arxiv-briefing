@@ -78,6 +78,8 @@ LEX = {
     "FAST": "fˈæst", "GLIMPSE": "ɡlˈɪmps", "MIPSGAL": "mˈɪpsɡæl", "ATLASGAL": "ˈætləsɡæl",
     "HiGAL": "hˈaɪɡæl", "CHIMPS": "tʃˈɪmps", "SEDIGISM": "sˈɛdɪdʒˌɪzəm",
     "ACES": "ˈeɪsᵻz", "CMZoom": "sˌiːˌɛmzˈuːm", "MALT90": "mˈɔːlt nˈaɪnti", "BGPS": "bˌiːdʒˌiːpˌiːˈɛs",
+    "HOPS": "hˈɑːps", "NIKA2": "nˈiːkə tˈuː", "WINERED": "wˈaɪnɹɛd", "DALI": "dˈɑːli", "Spektr": "spˈɛktəɹ",
+    "LuSEE": "lˈuːsi", "CEN": "sˈɛn", "Teide": "tˈeɪdeɪ", "EGRET": "ˈiːɡɹɛt", "GOTHAM": "ɡˈɑːθəm", "Sirocco": "sɪɹˈɑːkoʊ",
     "MeerKAT+": "mˈɪɹkæt plˈʌs", "SiO": formula("SiO"), "NaCl": formula("NaCl"), "KCl": formula("KCl"),
 }
 # all-caps tokens of 5+ letters that are still spelled out
