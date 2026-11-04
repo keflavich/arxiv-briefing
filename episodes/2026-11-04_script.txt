@@ -1,0 +1,111 @@
+Good morning, Adam. This is your arXiv briefing for Wednesday, November 4, 2026. Today's listing holds 89 new submissions and 18 cross-lists, and I picked 20 papers. It is a quieter day with a good ISM flavor: Galactic gas, H II regions, and a strong pair of astrochemistry results, with very little on the Galactic Center itself.
+
+On salt: no NaCl, KCl, or alkali halide papers appeared today. The only keyword hit is sodium-23 as a carbon-burning product, which gets a short salt watch entry. The nearest thing to your refractory interests is a JWST study of the protostar HOPS-68, whose companion paper finds refractory dust recondensing. Astrochemistry is in good shape, led by a missing PAH in TMC-1.
+
+Part one. The rundown.
+
+Galactic Center.
+
+Number one. Chen Yuan and Vitor Cardoso ask how fast black holes spin, with 500 GRMHD simulations of magnetized disks around Kerr black holes. The equilibrium spin runs from about 0.88 in the fiducial model to about 0.98 for weak magnetic flux. For Sgr A*, "even an optimistic estimate for rapid spin evolution gives a timescale longer than" ten to the thirteenth years, so accretion today cannot set its spin. Figure 3 plots the spin-up rate against spin for five models, with 90 percent confidence bands. This is the only Galactic Center link in today's picks.
+
+Galactic star formation and the ISM.
+
+Number two. Sameshima and colleagues, resonant scattering of the helium 1.083 micron line in M17. Deep dive coming.
+
+Number three. Lin, Wyrowski, Neupane, and colleagues use APEX to map CO three-two across two spiral-arm tangents in the fourth quadrant, out to about 200 parsecs from the plane. The vertical profile needs two Gaussians, "the narrow one with an FWHM thickness of 25 pc" and a wide one of about 100 parsecs. They offer two readings: arm and interarm components of the thin disk, or thin and thick disks. Figure 4 shows CO intensity against height around the tangent velocity for each region. Figures 11 and 12 show cumulative distributions of clump properties, split into three height groups, and clumps sitting higher have lower excitation temperature and surface density.
+
+Number four. Fujimoto, Desch, Shimoda, and colleagues, a Galactic origin for the Solar System's beryllium-10. Deep dive coming.
+
+Number five. Buemi, Leto, Cavallaro, and colleagues image the Wolf-Rayet nebula PCG 11 with MeerKAT and ATCA. They find "a hollow, equatorially enhanced structure viewed close to its symmetry axis", with a rim broken into knots, gaps, and fingers, and "substantial photon leakage". Figure 5 is a histogram of the pixel-by-pixel spectral index, centered near the optically thin free-free value, so the nebula is thermal as a whole. Figure 8 traces peak brightness around the rim and marks each knot and gap.
+
+Number six. Villarroel Casanova, Schleicher, Galli, and a coauthor use MESA to find when accreting protostars turn radiative, with fossil magnetic fields in mind. The transition falls between about 1.3 and 2.8 solar masses for their reference models, and lower metallicity moves it lower. Figure 1 shows Kippenhahn diagrams, interior radius against protostellar mass, with convective zones in green and radiative zones in white, for four accretion rates. Figure 8 overlays transition mass against average accretion rate for constant, oscillating, and power-law accretion. They predict "an increased incidence of strongly magnetized radiative stars" at low metallicity.
+
+Number seven. Jiao, Feng, Beuther, and colleagues add NIKA2 1.15 millimeter data along Andromeda's minor axis, at about 40 parsec resolution. The average emissivity index comes out near 1.8, "systematically lower than values derived from far-infrared-only analyses", and higher in the 5 kpc ring than the 10 kpc ring. Figure 6 compares posteriors of dust temperature and beta for different wavelength coverage, which shows the degeneracy tightening as long wavelengths come in. Figure 8 shows the beta histograms for the two rings.
+
+Number eight. Kirsanova, Balashev, Barkov, and colleagues review ISM and intergalactic science for the Russian Spektr-UF observatory, including photodissociation regions and the small-scale structure of clouds. Treat it as a science case, since the telescope is "currently being prepared for launch". Figure 2 gives statistics of known H2 absorption systems by redshift and column density, split between optical and space telescopes.
+
+Astrochemistry.
+
+Number nine. Ren, Wenzel, Speak, and colleagues, the missing triphenylene in TMC-1. Deep dive coming.
+
+Number ten. Ballieux, McClure, Bergin, and colleagues, carbon destruction and hydrocarbons in HOPS-68. Deep dive coming.
+
+Number eleven. Weichmann, Zhang, Trapman, and a coauthor measure the gas mass of the Herbig disk HD 179218, where the CO snowline lies beyond the disk edge, so CO never freezes out. ALMA and NOEMA isotopologue data give a gas-to-dust ratio near 270, plus a gas cavity inside 50 au that is "the inverse of a typical transition disk". Figure 5 compares C18O and 13CO radial profiles against models of varying gas-to-dust ratio, and C18O picks out about 270. Figure 8 maps the model gas temperature and CO abundance, with the midplane staying above freeze-out at all radii.
+
+Salt watch.
+
+Number twelve. Akram Mukhamedzhanov puts new carbon-fusion rates into MESA. The salt link is purely nuclear: sodium-23 mass at central carbon depletion falls by 28.7 percent in a 20 solar mass star, while neon-20 rises by 10.8 percent. Figure 2 shows mass-fraction profiles of neon, sodium, and magnesium for the two rate prescriptions. Figure 4 plots the maximum black hole mass below the pair-instability gap against the helium capture rate on carbon, and the abstract quotes roughly 61.5 to 77.4 solar masses.
+
+Big news.
+
+Number thirteen. Sneppen, Watson, Ivey, and colleagues, ultraviolet spectra of little red dots. Deep dive coming.
+
+Number fourteen. Zhu, Ma, Lin, and colleagues study Lyman alpha in 12 compact broad-line emitters, little red dots among them, at redshifts 4.2 to 5.5. Six are detected, and each detected line is narrower than broad H-alpha. "The black hole is visible in these sources", they write, but the Lyman alpha "is more closely tied to its host". Figure 4 plots observed Lyman alpha against the host-model prediction, in equivalent width and luminosity, with an equality line. Figure 5 plots Lyman alpha width against broad H-alpha width. Detections sit above the host model by a factor of 1.5 to 18, "leaving room for a nuclear contribution".
+
+Number fifteen. Lin, Qian, Sun, and colleagues report three planets on orbits smaller than the largest radius their host stars should have reached: 24 Bootis b, HD 12648 b, and a third around a Tycho catalog star. 24 Bootis b sits at 0.183 au on a 30-day period. Figure 1 places the hosts among red-clump stars in asteroseismic diagrams. Figure 2 plots stellar radius against orbital separation for known planets, with these three highlighted. Figure 3 compares each orbit with the predicted radius at the tip of the giant branch for five mixing lengths. They call it "a new class of evolved planetary systems", so the mixing-length figure is the one to scrutinize.
+
+Number sixteen. Majumdar, Gromadzki, Moriya, and colleagues present the luminous Type IIn SN 2019qem. The preferred model has about 9 solar masses of gas ejected two years before explosion, and the shock sweeps up about 32 solar masses by day 544. The progenitor "lost mass far faster than any steady stellar wind". This paper has no HTML version, so I have no figures to describe.
+
+Number seventeen. Munari, Valisa, Masetti, and colleagues report 44 new symbiotic stars "accreting at the lowest detectable levels", picked from Galah red giants with H-alpha excess. With Paper I that makes 77 new systems, more than 10 percent of all known symbiotics. Figure 4 compares Gaia XP spectra of well-known and new systems, showing varying near-UV excess. Figure 6 gives histograms of the 44 in giant class, reddening, distance, and accretion luminosity.
+
+Methods and oddballs.
+
+Number eighteen. Fang Zhou builds a multi-agent pipeline for high-energy data with strict provenance checks on every number. The test is frank: "Of 65 defects that we planted in the toolkit, 47 pass the automatic checks, and one passes the code review as well", though the review also rejects 40 of 69 correct changes. It reproduces published IXPE results for Cygnus X-1 within 3 sigma on all 14 quantities. Figure 6 compares code review by eight models from five providers. Figure 8 shows the signed deviations of those 14 quantities across six runs. In the interest of disclosure, a Claude model serves as the lead in one of their tables.
+
+Number nineteen. Alarcon, Lemes-Perera, Serra-Ricart, and a coauthor present GPUPhot, in which "every stage is cast as a convolution with a fixed kernel or an element-wise operation on full-frame maps". It has processed 3.7 million images at Teide Observatory since 2023. Figure 5 shows PSF eigenmodes beside maps of their coefficients across the field. Figure 12 shows injection and recovery results for completeness, astrometry, and photometry on four instruments.
+
+Number twenty. Yousuf, Gerber, Li, and colleagues estimate whether LuSEE-Night, on the lunar far side, can see carbon radio recombination lines from the cold neutral medium. Single lines take 30 hours to 27.6 years, and stacking 361 lines cuts that to about 11 minutes to 151 hours. Figure 4 maps their assumed optical depth, highest toward the Galactic Center, then the plane, then high latitude. Figure 9 shows the stacked line profiles for six sky models, and the spread shows how much rests on those assumptions.
+
+Part two. Deep dives.
+
+Deep dive one. Helium scattering in M17.
+
+The helium line at 1.083 microns has a metastable lower level, so in H II regions it can become optically thick and its photons scatter. Draine predicted this year that scattering splits the profile into several peaks. Sameshima and colleagues took Magellan WINERED spectra at a resolving power near 70,000, at six pointings running from the ionizing source CEN 1 across the southwestern bar of M17, with Paschen gamma in the same exposures.
+
+The helium profiles are all multi-peaked and the Paschen gamma profiles are single-peaked. Since Paschen gamma traces kinematics, and "the shared exposures exclude an instrumental origin", they conclude: "We therefore attribute the He I peaks to resonant scattering, as predicted." At two pointings far from CEN 1, "no static model of any optical depth reproduces width and asymmetry together", and the authors read those red-weighted profiles as scattering in expanding gas.
+
+Figure 1 sets the slits on an H-alpha image with 20 centimeter contours, and plots surface brightness along that line. Figure 2 stacks helium over Paschen gamma at each pointing by distance from CEN 1, with triangles marking the helium peaks. Figure 4 places each pointing in a plane of line width against asymmetry, with tracks of static models, and pointings 4 and 5 fall off the family.
+
+Now the skeptical reading. The models are static and spherical, while the bar is neither, so expansion is one candidate among possible departures from the model. OH airglow residuals overlap part of the helium profile, and the peaks in Figure 2 were identified by eye. A new diagnostic needs models with real geometry and velocity fields.
+
+Deep dive two. Beryllium-10 from the Galaxy.
+
+Meteorites show that the early Solar System held substantial beryllium-10, and the argument has been whether it came from the parent cloud, local irradiation, or late injection. Fujimoto and colleagues present what they call the first 3D simulations of a Milky Way-like disk following the multiphase ISM, cosmic rays, and beryllium-10 production together.
+
+Their headline: "Nearly all 10Be is produced by GCR interactions", with supernova remnants contributing at most about ten percent of what new stars inherit. Stars form where supernovae inject cosmic rays, so natal gas is enriched "roughly fivefold relative to the mean interstellar medium", which one-zone estimates miss. Inheritance then works "without late injection or local irradiation". The inferred solar birth radius spans 3 to 8 kpc, depending on cosmic-ray diffusivity.
+
+Figure 4 shows zoomed maps of gas, cosmic-ray energy, beryllium-10, and the beryllium isotope ratio, so you can see the ratio track cosmic rays. Figure 8 is the key plot: the inherited ratio against assumed solar birth radius for four models, with the meteoritic value of about 7 times ten to the minus 4 as a horizontal line. Figure 11 compares simulated hadronic gamma-ray longitude profiles with EGRET data, a useful external check on the cosmic-ray field.
+
+Be careful with a few things. Figure 8 includes a factor of two star formation enhancement, assumed for the epoch of Solar System formation. Resolution is 10 parsecs, and low-energy cosmic-ray penetration into dense gas remains uncertain. The authors did test a tenfold reduction there, and the meteoritic value is then met in the innermost disk and missed by a factor of a few elsewhere. Figure 8 is a scan over hypotheses, as the caption says, rather than a radial profile of the disk.
+
+Deep dive three. The missing triphenylene.
+
+Recent PAH detections in TMC-1 show odd gaps. Triphenylene, C18H12, makes a sharp test: it is exceptionally stable and the smallest fully benzenoid PAH under Clar's rule. It has no dipole, so Ren and colleagues synthesized cyanotriphenylenes as polar tracers, measured their rotational spectra from 6.5 to 16 GHz, and searched GOTHAM data.
+
+They detect nothing, which suggests what they call a possible "missing triphenylene" anomaly. A new ring-node graph sorts PAH skeletons by topology and classifies triphenylene as non-compact, and detected and undetected species tentatively cluster on that axis. So "the current PAH inventory cannot be rationalized solely on the basis of thermodynamic stability", and kinetics must matter, through growth pathways and fast consumption of bay-region intermediates.
+
+Figure 3 gives computed energies showing triphenylene as the most stable benzenoid isomer of its family. Figure 6 lays out ring-node diagrams, green for compact and red for non-compact, with arrows for barrierless growth routes, and this is the conceptual heart of the paper. Figure 13 shows stacking and matched filtering on the 150 strongest lines, with no peak above 2 sigma at zero velocity.
+
+For a critical read, the claim is about the parent, while the data constrain only the nitrile. Inferring triphenylene depletion assumes CN addition behaves as it does for detected PAHs, and Figure 15 gives the computed energy surface for that step, so check it. The clustering is tentative and the sample is small.
+
+Deep dive four. Carbon going up in smoke.
+
+Earth is strongly depleted in carbon relative to the Sun, and sublimation of carbonaceous solids in inner disks is one explanation. Ballieux, McClure, Bergin, and colleagues analyze the JWST MIRI spectrum of the Class I protostar HOPS-68 with LTE slab models. A companion paper handles the refractory dust and the SiO, water, and carbon dioxide bands.
+
+They find warm HCN and C2H2, near 400 K, at the base of a disk wind, and cold C4H2, CH3, and CS near 40 K farther out, plus CH4 and C6H2, while ALMA shows C2H on the outflow cavity walls. They propose a "refractory carbon destruction zone" in the inner disk. A wind then "redistributes carbon" outward, and ultraviolet-driven reactions build carbon chains. The eyebrow-raiser is that Warm Carbon Chain Chemistry "might trace outflows rather than infall".
+
+Figure 4 shows the full MIRI spectrum, labeled with gas bands, ices, and silicates, and it is worth seeing how rich it is. Figure 2 overlays the blueshifted H2 jet with ALMA C2H contours along the cavity walls. Figure 3 is the cartoon: gas enriched between the soot line near 500 K and the graphite rim near 1200 K, carried out by the wind.
+
+The cautions are real. This is a single source with LTE slab fits to residuals of a water model from the companion paper, so errors propagate. C6H2 could not be fit, for lack of spectral data, and the isotherm locations are estimates. The link to Earth's carbon deficit is stated as a possibility. Your SiO interest points you to the companion paper, so read the two together.
+
+Deep dive five. Little red dot ultraviolet spectra.
+
+Sneppen and colleagues use Sirocco radiative-transfer models of black holes inside dense gas cocoons to interpret ultraviolet features from the JWST SPURS survey. Nitrogen and carbon ions of equal charge share the same gas in the models, so paired line ratios constrain density and abundance together.
+
+For SPURS-GN-2, at redshift 7.19, broad-line gas needs a nitrogen to carbon ratio about 12 times solar. "Thus, around half the broad-line CNO nuclei have passed through hydrogen burning." And "Because the ionised gas is replaced on a century timescale, sustaining this enrichment favours gas recycling." Absorption blueshifts rise with ionization potential in two of four objects, which they read as gas launched near escape speed and slowed by gravity, implying a black hole of ten to the six or seven solar masses near Eddington.
+
+Figure 2 shows the nitrogen to carbon ratio against electron density from the two line ratios, then compares GN-2 with other sources, then shows that the ratio requires a large share of hydrogen-burning ash. Figure 4 plots absorption velocity against ionization potential for three objects. Figure 6 combines the luminosity and deceleration constraints on black hole mass, which exclude about ten to the fourth and about ten to the eighth solar masses, and it agrees with the H-alpha estimate only when electron-scattering broadening is included.
+
+Read it knowing that nearly everything flows through one model family, and the strongest numbers come from one object. Figure B.2 is a useful warning, with inferred columns falling 1 to 6 dex below true values in the saturated case. The authors themselves say that saturation makes "inferences of direct abundance ratios misleading". Figure 7 marks features that Sirocco leaves out.
+
+That's the briefing. Today's top read is Ren and colleagues on the missing triphenylene in TMC-1.
