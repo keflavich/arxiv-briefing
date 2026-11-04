@@ -5,6 +5,11 @@ from kokoro_onnx import Kokoro
 
 # Semantic rewrites only (units, symbols, names said as words). Acronym letter-reading and
 # stress are handled by pron.py: initialisms get end stress, plurals get "-z"/"-ez".
+_ROM = {"I": "one", "II": "two", "III": "three", "IV": "four", "V": "five", "VI": "six", "VII": "seven", "VIII": "eight", "IX": "nine", "X": "ten"}
+def _rom(m): return m.group(1) + " " + _ROM[m.group(2)]
+_ELEM = {"Na": "sodium", "Cr": "chromium", "Fe": "iron", "Mg": "magnesium", "Ca": "calcium", "Al": "aluminum", "Ni": "nickel", "Ti": "titanium", "Zn": "zinc", "Sr": "strontium", "K": "potassium"}
+def _ion(m): return _ELEM.get(m.group(1), m.group(1)) + " " + _ROM[m.group(2)]
+
 SPEAK = [
     (r"3I ATLAS", "three I ATLAS"), (r"\b3I\b", "three I"), (r"q < 0\.1", "q less than zero point one"),
     (r"(\d+)\^3", r"\1 cubed"), (r"1000%", "one thousand percent"),
@@ -25,9 +30,18 @@ SPEAK = [
     (r"STARLINK-(\d\d)(\d\d\d)", r"Starlink \1 \2"),
     (r"\b11 305\b", "eleven thousand three hundred five"), (r"C-H-bearing", "CH bearing"),
     (r"\bHi-GAL\b|\bHI-Gal\b", "HiGAL"), (r"\bV(\d)(\d\d)\b", r"V \1 \2"),
-    (r"\bHe I\b", "helium one"), (r"\b10Be\b", "beryllium ten"),
+    (r"\bHe I\b", "helium one"), (r"\bHe-like\b", "helium-like"), (r"\bAB Aur\b", "AB Aurigae"),
+    (r"\b(k|G|M|T)eV\b", lambda m: m[1].upper() + " E V"), (r"\bL(\d\d)(\d\d)\b", r"L \1 \2"), (r"\bF(\d{3})W\b", r"F \1 W"),
+    (r"\bGW(\d\d)(\d\d)(\d\d)\b", r"GW \1 \2 \3"), (r"\bz>(\d)", r"redshifts above \1"), (r"\b10Be\b", "beryllium ten"),
     (r"\bM(\d{1,3})\b", r"M \1"), (r"\bType IIn\b", "type two N"), (r"\b2019qem\b", "twenty nineteen Q E M"),
     (r"GPUPhot", "GPU Phot"), (r"\bGHz\b", "gigahertz"), (r"\b13CO\b", "thirteen CO"), (r"H-alpha", "H alpha"), (r"\bCO three-two\b", "CO three two"),
+    (r"\b(12|13|14|15|17|18)(?=[CNO](?:[A-Z0-9+]|\b))", r"\1 "), (r"\bHMgC3N\b", "H M G C three N"),
+    (r"\b(H|C|N|O|Ne|Mg|Si|S|Ar|Ca|Fe|Al|Na|K|Ni|Cr|Ti|Zn|Sr)(?: |\b)(I{1,3}|IV|VI{0,3}|IX|X)\b\]?", _ion),
+    (r"\b(Class|class|Paper|Papers|Type|type|Phase|Population|Group|Part|Stage|Series)\s+(I{1,3}|IV|VI{0,3})\b(?![a-z])", _rom),
+    (r"\bClass 0\b", "Class zero"), (r"\bType I[Ii]?([abc])\b", lambda m: "type " + ("two" if "II" in m.group(0) else "one") + " " + m.group(1).upper()),
+    (r"\b(?:Types? )?IIb\b", "type two B"), (r"\bIa\b", "one eigh"), (r"\b(Serpens|Cygnus)-X\b", r"\1 X"), (r"\bK2\b", "K two"), (r"\bPSR J0437\b", "PSR J 0 4 37"), (r"\b1LHAASO J2027\+3657\b", "the LHAASO source J 20 27"), (r"\bG352\.8\+0\.6\b", "G 352 point 8 plus 0 point 6"), (r"\bNGC 2071-IRS 1\b", "NGC 20 71 IRS 1"), (r"\bLHS 2534\b", "LHS 25 34"), (r"\bGRB 241113B\b", "GRB 24 11 13 B"), (r"\bSN 2025dys\b", "SN 20 25 D Y S"), (r"\bSN 2019rsq\b", "SN 20 19 R S Q"), (r"\bC/2026 A1\b", "C 20 26 A 1"), (r"\b12 to 7\b", "twelve to seven"), (r"\b170-249\b", "170 249"), (r"\bDESI-312\b", "DESI 312"), (r"\b2026 ED138\b", "20 26 E D 1 38"),
+    (r"\bJ ?= ?(\d+)\s*[-–]+\s*(\d+)\b", r"J \1 to \2"), (r"\bS(\d\d)(\d\d)(\d\d)([a-z]{1,2})\b", lambda m: f"S {m[1]} {m[2]} {m[3]} {m[4].upper()}"),
+    (r"(?<![\d.,])(1[5-9]\d\d|20[1-5]\d)(?![\d]| ?K\b| km| pc| au)", lambda m: m[1][:2] + " " + m[1][2:]),
     (r"([a-zA-Z])-(\d)", r"\1 \2"),
     (r"%", " percent"),
 ]
@@ -52,7 +66,7 @@ def kokoro():
     T = os.path.expanduser("~/tts/"); return Kokoro(T + "kokoro-v1.0.onnx", T + "voices-v1.0.bin")
 
 def phonemes(k, text):
-    return pron.to_phonemes(speakable(text), lambda s: k.tokenizer.phonemize(s, "en-us"))
+    return pron.to_phonemes(speakable(text), lambda s: k.tokenizer.phonemize(s, "en-us", norm=True))
 
 def main(src, out, speed=1.15, voice="af_heart"):
     k = kokoro()
@@ -69,6 +83,6 @@ if __name__ == "__main__":
     if sys.argv[1] == "--report":   # python3 render.py --report script.txt
         k = kokoro(); txt = speakable(open(sys.argv[2]).read())
         for tok, (kind, ipa) in sorted(pron.report(txt).items()):
-            print(f"{tok:14s} {kind:8s} {ipa or k.tokenizer.phonemize(tok, 'en-us')}")
+            print(f"{tok:14s} {kind:8s} {ipa or pron.native(k.tokenizer.phonemize(tok, 'en-us'))}")
     else:
         main(*sys.argv[1:])
