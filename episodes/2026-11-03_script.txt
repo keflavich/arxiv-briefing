@@ -1,0 +1,111 @@
+Good morning, Adam. This is your arXiv briefing for Tuesday, November 3, 2026. The listing is large, with 124 new submissions and 22 cross-lists, and I picked 20 papers. It is an excellent day for your topics: a star ejected from the Galactic Center, proper motions in a Class 0 outflow, and dark helium features in Orion.
+
+On salt: no NaCl, KCl, or alkali halide papers appeared. The hits are refractory grains in NGC 2024, refractory organics in comets, and a sodium abundance in the Galactic Center star. Astrochemistry is strong, with HNCO in a quiescent filament and HCN in a sungrazing comet just before it broke apart.
+
+Part one. The rundown.
+
+Galactic Center.
+
+Number one. Cavieres, Gonzalez Picos, Albarracin, and colleagues, the chemistry of a star ejected from the Galactic Center. Deep dive coming.
+
+Number two. Peschken, Di Teodoro, Hanasz, and colleagues take a simulated nuclear wind, generate mock Green Bank observations of its H I clouds, and analyze them like the real data. Observational effects hide more than 80 percent of the clouds, and survivors look less massive, less turbulent, and less elongated. They conclude the true population is "more numerous, massive, turbulent and elongated than observed". Figure 5 compares cloud properties before and after beam smearing and noise. Figure 8 plots simulated cloud positions on the sky with the observed clouds.
+
+Galactic star formation and the ISM.
+
+Number three. Kaur, Plunkett, Li, and colleagues, proper motions in a Serpens South outflow. Deep dive coming.
+
+Number four. Haworth, McCaughrean, van den Ancker, and colleagues, dark helium features in Orion. Deep dive coming.
+
+Number five. Ashok Mondal applies a physics-informed neural network to 2,091 clouds in the third Galactic quadrant that look virially unbound. Adding a learned external pressure brings 99.9 percent of them into pressure-confined equilibrium. Figure 2 shows the virial parameter before and after, and Figure 5 shows the corrected value against star formation rate, with a correlation of 0.64. Be skeptical: the virial theorem with free external pressure is built into the loss function, so reaching equilibrium is close to guaranteed, and the correlation is the real test.
+
+Number six. Huang, Wang, Chen, Tu, and Liu fit JWST NIRSpec spectra toward NGC 2024, with 46 candidate members among 78 sources. Most spectra favor large water-ice opacity, and a smaller subset needs gray opacity, "potentially arising from large refractory grains". Figure 2 places the sources in effective temperature and luminosity. Figure 3 shows that candidate members have lower surface gravities than background stars.
+
+Number seven. Anderson and Silsbee ask whether a collapsing prestellar core can capture free-floating planetesimals. Bodies of about 3 to 6 kilometers come from the Galactic population, and up to 70 to 1200 kilometers from a birth cluster, while total captured mass stays below 0.07 Earth masses. Figure 5 plots the expected number captured above a given diameter for three collapse models and three environments.
+
+Number eight. Chen, Lau, and Pinilla show that a planet's gap heats the disk midplane and creates two CO2 ice lines, which form double rings at 13 microns. They propose a test: "ice-line rings stay at fixed radii" across wavelength, while a pressure-bump ring shifts. Figure 5 shows radial intensity profiles for three models at three ages and three wavelengths.
+
+Astrochemistry.
+
+Number nine. Gomez-Ruiz, Codella, Rojas-Garcia, and colleagues, HNCO in the L1157 filament. Deep dive coming.
+
+Number ten. Godard Palluet, Bockelee-Morvan, Biver, and colleagues report "the first HCN detection in a Kreutz sungrazer", from the IRAM 30 meter on comet C/2026 A1 (MAPS), in the three days before it disintegrated. A second outburst released 0.4 to 1.2 percent of the comet's mass. Figure 2 shows HCN spectra changing through two outbursts. Figure 3 plots HCN production against distance from the Sun, and through the April 3 outburst.
+
+Number eleven. Anslow, McDonald, Bonsor, and colleagues argue that delivering prebiotic molecules by comet in useful concentrations "was an exceedingly rare event". Figure 3 shows Monte Carlo counts of comets that deliver enough HCN per million years, and Figure 4 compares Mars, Earth, and Venus.
+
+Salt watch.
+
+Number twelve. Serhii Borysenko asks whether the dust-activity parameter Afrho traces refractory organic release across 27 small bodies, and offers it as a comparative proxy only. No salts here, only the word refractory. Figure 2 plots dust activity against perihelion distance by dynamical class.
+
+Big news.
+
+Number thirteen. Tanaka, Akins, Silverman, and colleagues report "the highest-redshift LRD candidate known to date", at a spectroscopic redshift of 10.361, with a prominent break and tentative emission lines. Figure 1 shows the NIRSpec spectrum. Figure 3 plots ultraviolet magnitude against redshift for confirmed LRDs, with this source far beyond the others.
+
+Number fourteen. Murtagh, Chandler, Juric, and colleagues trace Rubin's trans-Neptunian object 2026 ED138, "one of the largest known TNOs", through 89 years of archival data, back to a 1937 Harvard plate. They predict 15 occultations from 2027 to 2030. Figure 1 shows the object on thirteen photographic plates. Figure 2 maps the shadow paths, and Figure 6 shows it sticking to the 12 to 7 resonance with Neptune.
+
+Number fifteen. Yang, Chen, Guo, and colleagues, a gravitational-wave pair and a supernova. Deep dive coming.
+
+Number sixteen. Roy, Morlino, Rishi, and colleagues model the Cygnus bubble as acceleration at a cluster wind termination shock, and test a hadronic origin. Figure 4 fits the gamma-ray spectrum for three diffusion models. Figure 7 gives the predicted neutrino flux with IceCube data for comparison.
+
+Number seventeen. Van Zandt and Bowler use 719 stars to show giant planet occurrence doubling around stars above a solar mass, with 2 to 3 sigma evidence for heavier planets too. Figure 4 compares companion mass functions for high-mass and low-mass hosts.
+
+Methods and oddballs.
+
+Number eighteen. Emmanuel Schaan explains why two glass disks rubbed together "spontaneously converge to perfectly matching spherical curves", and why rock tumblers never make spheres. Figure 4 shows equilibrium surfaces as those left unchanged by the stroke symmetry. Figure 7 gives the hierarchy of timescales for a 10 inch mirror. Good for a teaching lab.
+
+Number nineteen. Wang, Tan, Li, and colleagues report a hackathon in which 102 teams built autonomous survey schedulers. Leading systems combine numerical planning with language models. Figure 7 breaks down which parts of the top systems use which method.
+
+Number twenty. Michael Hippke parallelizes a single Solar System integration in time, a task long considered sequential, finishing 5 billion years in 52 minutes on 64 cores. Figure 1 plots wall-clock time by publication year. Figure 6 shows speed-up against core number.
+
+Part two. Deep dives.
+
+Deep dive one. A dwarf star from the Galactic Center.
+
+Abundances in the Galactic Center usually come from bright giants seen through heavy extinction. Hypervelocity stars carry that chemistry into easy territory. Cavieres and colleagues took Magellan MIKE spectra of DESI-312, a bound candidate in the halo with super-solar metallicity and an age of 7.4 to 11.3 billion years.
+
+They measure 22 elements, and because the star is near the main sequence, its carbon, nitrogen, and oxygen are untouched by dredge-up: "to our knowledge, these are the first such measurements of unevolved GC material". The pattern sits where the nuclear star cluster, the nuclear stellar disk, and the inner bulge overlap. "Chemistry alone thus cannot identify its progenitor", though they favor the nuclear cluster. The sodium enhancement is modest compared with nuclear cluster giants, for your salt file.
+
+Figure 1 shows backward-integrated orbits passing near the Galactic Center. Figure 4 plots sodium, titanium, and alpha elements against iron, with this star among the comparison populations. Figure 9 shows the fits to CH, CN, the oxygen triplet, and sodium, with models with and without each species.
+
+Read it as a test case. It is one candidate star, and the origin claim rests on orbit, age, and metallicity together. Fluorine, potassium, and ytterbium are dominated by the prior, per Figures 5 and 6, so ignore them. The oxygen triplet needs NLTE, since neglecting it raises oxygen by about 0.2 dex. The suggestion of multiple progenitor populations for the S-stars is tentative, and rests on three objects.
+
+Deep dive two. A protostellar outflow in motion.
+
+Kaur and colleagues study the outflow from the Class 0 protostar CARMA-7, in the central hub of Serpens South. They have ALMA data from 2017 and 2021, in 12CO three-two and SiO eight-seven, resolving a collimated outflow into knots. This is the first proper motion study of this source.
+
+Knots move 10 to 40 milliarcseconds per year, or 30 to 90 kilometers per second. With radial velocities, that places the lobes at 60 to 80 degrees from the line of sight. They "measure ejection timescales as recent as" about 10 to about 120 years, which dates individual ejection events.
+
+Figure 2 shows CO knots at both epochs, redshifted and blueshifted, with Gaussian fits marking each center. Figure 3 does the same for SiO. Figure 4 overlays SiO on CO contours, showing how the two tracers compare along the flow.
+
+The critical point is that a 10 milliarcsecond per year motion amounts to 40 milliarcseconds in four years, compared with a 0.2 arcsecond beam. So the measurement is a fraction of a beam, and depends on Gaussian centroids and astrometry between epochs. Knot identity is assumed across epochs, and knots can change shape. A third epoch would settle it. The SiO data make this a nice shock target, since SiO requires grain processing.
+
+Deep dive three. Dark helium in Orion.
+
+JWST F115W images of the inner Orion Nebula showed odd dark features. Haworth and colleagues took VLT CRIRES+ spectra across seven targets, and confirm that the helium triplet near 1.083 microns is responsible. The flux drop is "a reduction that is fairly uniform across the line". This is the same line as Wednesday's M17 paper.
+
+The Orion Nebula is a blister, with a dense ionized layer on the far side. They show that "dark features arise when emission from the dense layer is absorbed by intermediate density helium", in clumps, globules, or proplyd winds on the near side. That makes these features a depth probe.
+
+Figure 4 shows helium line profiles, with a red shoulder from back scattering. Figure 5 tracks the line along each slit, and the F115W drop follows the line flux. Figure 12 is the geometry cartoon. Figure 13 shows proplyds with and without dark bubbles, and Figure 14 shows that 170-249, which has none, has an unusually high disk-to-star mass ratio. That is consistent with it having only recently emerged from the molecular cloud.
+
+For skepticism, the model is simple radiative transfer, and the geometry is inferred. A uniform reduction across the line is unusual for absorption, so check how they treat optical depth and velocity. Figure 14 is suggestive and rests on one object. Line-of-sight ordering from one dark bubble would be a strong claim, so look for independent distance constraints.
+
+Deep dive four. HNCO in a quiescent filament.
+
+L1157 is the prototype chemically active outflow. Gomez-Ruiz and colleagues mapped its blue lobe in HNCO with the Large Millimeter Telescope, at 87.925 GHz. They expected the outflow. They also found HNCO tracing a structure about 0.3 parsecs long, matching the filament that gave birth to the protostar.
+
+They conclude: "the building blocks of complex chemistry are already well established in stages prior to protostellar warming or shocks". HNCO matters as a precursor of more complex molecules, including formamide.
+
+Figure 1 shows channel maps over a composite of far-infrared, Spitzer, and CO images, with the filament ridges highlighted at cloud velocity. Figure 3 shows spectra at the protostar, filament, and outflow positions, which is where to judge the separation. Figure 4 gives integrated intensity, velocity, and dispersion maps. Figure 5 shows NH2CHO toward the same lobe.
+
+This is one transition, so it gives neither excitation nor a real abundance, and the conclusion is drawn from a morphology. HNCO in cold gas may reflect density as much as chemistry, since this line needs fairly dense gas to emit. Separating filament from outflow at cloud velocity is hard near a shocked lobe. A multi-line map with ALMA or NOEMA would turn this into a real abundance measurement.
+
+Deep dive five. A gravitational-wave pair and a supernova.
+
+Yang and colleagues report two marginal candidates, S190910d and S190910h, 7.1 hours apart, whose localizations overlap at the position and distance of the Type IIb supernova SN 2019rsq. The pair sits at a pairwise null probability of 7.6 times ten to the minus 5. Masses come out as about 34 plus 3 solar masses and 2.5 plus 1.3.
+
+They propose that a fragmenting collapsar disk could explain it, "raising the possibility that multiple compact object mergers can accompany a single stellar collapse episode". That would be remarkable, since mergers are expected long after collapse.
+
+Figure 1 shows the sky overlap and the distance comparison, with the supernova at 140.6 megaparsecs inside a broad estimate of 206 plus or minus 72. Figure 2 plots temporal separation against 3D overlap for all candidate pairs, with this one as the outlier. Figure 3 shows light curves with models placing the explosion near S190910d. Figure 4 is the scenario cartoon.
+
+Now hold on to your wallet. Both events are marginal, so either may be noise. The abstract says the supernova coincidence alone "is not statistically rare". The null test depends on the selection of the sample, and a pair chosen after looking across a catalog deserves a trials penalty. Figure 1 warns that it is not a formal joint posterior. Treat this as a hypothesis worth testing in O5.
+
+That's the briefing. Today's top read is Cavieres and colleagues on DESI-312.
