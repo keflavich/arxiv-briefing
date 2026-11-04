@@ -13,6 +13,14 @@
     <itunes:category text="Science"/>
 <!-- ITEMS -->
     <item>
+      <title>arXiv briefing, Wednesday November 4, 2026</title>
+      <description>20 papers; no salt papers today. Deep dives: He I resonant scattering in M17; Galactic 10Be and the early Solar System; the missing triphenylene in TMC-1; carbon destruction in the Class I disk HOPS-68; UV spectra of little red dots.</description>
+      <enclosure url="https://keflavich.github.io/arxiv-briefing/episodes/arxiv-briefing-2026-11-04.mp3" length="9715245" type="audio/mpeg"/>
+      <guid isPermaLink="false">arxiv-briefing-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 11:00:00 +0000</pubDate>
+      <itunes:duration>1214</itunes:duration>
+    </item>
+    <item>
       <title>arXiv briefing, Wednesday October 28, 2026</title>
       <description>20 papers; no salt papers today. Deep dives: collimated jet-driven outflow in Sgr C (CMZ); What sets the Milky Way SFR? I and II; silicon-carbon chains in IRC+10216; JWST amorphous silicates in 3I/ATLAS; Starlink VHF telemetry decoded with 21CMA.</description>
       <enclosure url="https://keflavich.github.io/arxiv-briefing/episodes/arxiv-briefing-2026-10-28.mp3" length="9277677" type="audio/mpeg"/>
