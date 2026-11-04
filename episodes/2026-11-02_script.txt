@@ -1,0 +1,111 @@
+Good morning, Adam. This is your arXiv briefing for Monday, November 2, 2026. The listing holds 79 new submissions and 11 cross-lists, and I picked 20 papers. It is a small day with an unusually good run of Galactic star formation: a reclassified young star, a cloud collision candidate, and gamma rays from a nearby star-forming region.
+
+On salt: no NaCl, KCl, or alkali halide molecules today. The salt watch has atomic sodium in a white dwarf, with Jamie Tayar among the authors. Astrochemistry is thin but interesting, with new collision rates for a magnesium-bearing molecule.
+
+Part one. The rundown.
+
+Galactic Center.
+
+Number one. Wang, Mao, Yang, and colleagues measure absolute proper motions for about 400,000 stars in 27 Hubble fields across the southern bulge, tied to Gaia. The mean motion in latitude matches Sgr A*. Dispersions rise toward the Galactic Center and differ across longitude, "revealing the bulge's non-axisymmetric bar structure". Figure 5 plots dispersion against longitude and latitude with linear fits, and the slope is steeper at negative longitude. Figure 6 maps the anisotropy and the covariance of the stellar motions across the same coordinates.
+
+Galactic star formation and the ISM.
+
+Number two. Skinner and Guedel, the X-ray spectrum of R Mon. Deep dive coming.
+
+Number three. Goh, Nakano, Tachihara, and Ohba, an older cluster and a possible cloud collision in NGC 6357. Deep dive coming.
+
+Number four. Babu, DiKerby, Ergin, and the HAWC Collaboration, high-energy emission from S106. Deep dive coming.
+
+Number five. Shinoda, Tazaki, Tokuno, and Suwa ask how supernovae make micron-sized presolar graphite, when theory usually gives grains below a tenth of a micron. Their one-zone models say this graphite "preferentially forms in faint-supernova-like explosions", with low energy and little ejected nickel. Figure 3 maps final grain radius on the plane of explosion energy and ejecta mass, for four initial radii. Figure 5 plots grain size against ejected nickel mass at two explosion energies.
+
+Number six. D'Angelo, Schneider, Graziani, and colleagues use simulated galaxies near redshift 5 to explain scatter in the dust-to-stellar mass relation. Stellar dust alone gives only the low-dust branch, and they name "the assembly stage as the key regulator of dust growth at high redshift". Figure 1 shows the dust-to-stellar mass relation with their selected galaxies highlighted. Figure 7 shows predicted JWST images of those galaxies in ultraviolet and optical filters.
+
+Astrochemistry.
+
+Number seven. Tian, Xiang, Zou, and Chen compute a potential energy surface and collision rates for HMgC3N with helium, from 3 to 50 K. The rates favor changes of two rotational levels. Radiative transfer with those rates gives an H2 density near 1.2 times ten to the fifth per cubic centimeter and a column density near 1.8 times ten to the twelfth, in approximate agreement with the earlier estimate of 3 times ten to the twelfth. Figure 6 plots rate coefficients against temperature. Figure 8 shows the chi-squared grid over density and column density.
+
+Salt watch.
+
+Number eight. Souchet, Moss, Tayar, and colleagues study the magnetic white dwarf LHS 2534. MMT spectra show the Na I and Cr I lines varying with periods near 19.4 hours, close to the 20.22 hour period from K2. That points to metals concentrated at the magnetic poles by accretion, and only three such stars were known. Figure 1 is the single figure: the changing sodium profile, a fit to the sodium triplet, and the line strengths folded on the period.
+
+Big news.
+
+Number nine. Ryan Foley, the missing binary neutron star mergers. Deep dive coming.
+
+Number ten. Gilman, Petraki, Pignard, and colleagues interpret 29 quadruply imaged quasars, which "hints at dark matter halo densities consistent with gravothermal core collapse", as elastic Yukawa scattering. Favored dark matter masses are 20 to 80 GeV with MeV-scale mediators. Figure 3 shows the Yukawa parameter space with limits from clusters, Milky Way satellites, and lensing. Figure 4 gives the joint likelihood of dark matter and mediator mass.
+
+Number eleven. Stammler, Guillot, Gonzalez-Caniulef, and colleagues update PSR J0437 with NICER, XMM, NuSTAR, and Hubble. They get 1.377 solar masses and an equatorial radius of 11.35 kilometers, excluding equations of state with radii above 12 kilometers at the 68 percent level. Figure 13 compares mass and radius constraints across pulsars. Figure 12 shows the inferred hot spot geometry.
+
+Number twelve. Looser, D'Eugenio, Baker, and colleagues, the OASIS survey of quiet galaxies at high redshift. Deep dive coming.
+
+Number thirteen. Zhao, Kumar, Rameshan, and colleagues present SN 2025dys, a luminous Type II event that "represents a stripped progenitor" inside dense hydrogen-rich gas, with only about 2.5 solar masses of ejecta. Figure 3 compares its light curve with a reference sample. Figure 6 fits an electron-scattering model to the line profile.
+
+Number fourteen. Adrien, Turpin, Maiolino, and colleagues report GRB 241113B, "the first soft gamma-ray burst (GRB) jointly detected by EP and SVOM". A Lorentz factor above 100 rules out a dirty fireball. Figure 7 tracks the burst in the plane of peak energy and isotropic energy across its allowed redshift range.
+
+Number fifteen. Herold, Addison, and Riess use DESI DR2 BAO for a test of acceleration that "makes no assumptions about the theory of gravity or the energy content of the universe". They find 2.4 to 4.1 sigma. Figure 3 gives the significance for three statistics, and Figure 4 gives the probability under a coasting universe.
+
+Number sixteen. Plunkett, Zevin, and Vitale ask what a hierarchical merger looks like once measurement limits are included, and find "mass ratio is the largest intrinsic driver of identification". Figure 4 compares detected and classified distributions of simulated mergers.
+
+Methods and oddballs.
+
+Number seventeen. Korzoun, Brown, Fegan, and colleagues report first light for Dark100, which turns PANOSETI's small Fresnel telescopes into gamma-ray instruments at Palomar. Figure 5, a significance map of 50 hours on the Crab Nebula, shows 2.03 sigma at the Crab, so this is early commissioning.
+
+Number eighteen. Tirapongprasert and Ho let a language model choose parameters for cosmological simulations. Figure 2 plots fit quality against trial number for the agent and a Bayesian optimization baseline.
+
+Number nineteen. Jurgen Knodlseder counts the field. He finds 59,940 authors in 2025, and an estimated 100,000 astronomers, doubling every 16 years. If trends hold, "Chinese and Indian astronomers will be first and second largest communities in the world by 2029 and 2043". Figure 8 plots author numbers by country since 1975. Figure 5 shows that half of authors have published for seven years or less.
+
+Number twenty. Daniela Breitman shows that a misspecified model can pass a fit and still be wrong, and she calls this one that "silently fails". Figure 6 compares posterior predictions from the correct and misspecified models for a mock SKA power spectrum.
+
+Part two. Deep dives.
+
+Deep dive one. R Mon is a protostar.
+
+R Mon lights up Hubble's Variable Nebula and has long been called a Herbig Be star. Skinner and Guedel present seven Chandra observations from 2023 and 2024 that show a hard, heavily absorbed source. The spectrum has He-like iron near 6.7 keV from very hot plasma and fluorescent iron near 6.4 keV from cold gas nearby.
+
+Their logic: "The hot plasma and variability cannot be explained by shock models and magnetically confined plasma is inferred." The hard spectrum looks unlike Herbig stars and "is remarkably similar to some class I protostars". So they conclude "R Mon is a class I protostar", which makes it a rare view of an emerging intermediate-mass star.
+
+Figure 3 shows the spectra, with a two-Gaussian fit to the iron region at 6.42 and 6.69 keV. Figure 4 is the decisive comparison, setting R Mon against the Herbig star AB Aur and then against the massive protostar NGC 2071-IRS 1. It tracks the protostar. Figure 2 gives the light curves, with low-level variability and no large flares.
+
+Be careful about which star emits. Figure 1 shows the Chandra centroid 0.62 arcseconds south of the average position from other bands, with absolute pointing good to 0.7 arcseconds. A T Tauri companion also sits within an arcsecond. The class I label also rests on a resemblance to a small comparison set, so it needs a look at the infrared evidence.
+
+Deep dive two. NGC 6357 and a cloud collision.
+
+Goh and colleagues combine Gaia DR3 with ThrUMMS CO to look for earlier star formation. A clustering search recovers an older cluster, G352.8+0.6, at 7.9 million years, beside three young clusters of 1 to 3 million years, including Pismis 24. A linear traceback brings the older cluster closest to the young ones about 1.8 million years ago, which matches their ages.
+
+CO at plus 2 kilometers per second overlaps the older cluster, with depressions around three of its massive stars. Components at minus 4 and plus 2 have complementary distributions and intermediate-velocity emission. Their "principal interpretation is that the two molecular structures interacted around the epoch indicated by the stellar traceback".
+
+Figure 4 shows the back-projected cluster position landing nearly on the young clusters' center. Figure 8, a position-velocity diagram, shows bridge-like emission between the two components, the classic collision signature. Figure 9 shifts the plus 2 gas backward and overlays it on the minus 4 gas, and Figure 10 is the cartoon sequence.
+
+Now the caution. Every step is plane-of-sky, with constant velocity. The reconstruction assumes the cluster kept the transverse motion of its parent gas, which is the core assumption. Complementary distributions and bridges are suggestive signatures that other geometries can mimic. The authors say the compression "may have contributed", and that wording is about right.
+
+Deep dive three. Gamma rays from S106.
+
+HAWC reports S106, a star-forming region in southern Cygnus-X near the source 1LHAASO J2027+3657, and the team adds Fermi-LAT and Chandra. Hadrons striking gas are a common explanation for gamma rays from star-forming regions. This team builds a fully leptonic model from a single electron population, with gamma rays above 1 TeV coming from inverse Compton scattering on S106's own infrared photons.
+
+Their conclusion: "hadronic mechanisms are not always required to explain the observed flux from gamma-ray star-forming regions". The local photon field is what they emphasize.
+
+Figure 4 shows HAWC significance maps, with CO contours and the positions of S106 and the LHAASO source, and a residual map with no excess left. Figure 7 shows the broadband spectrum with synchrotron, bremsstrahlung, and inverse Compton from a 2.4 microgauss field and a dense cloud. Figure 8 shows the alternative, in which pion decay supplies the TeV flux.
+
+Figure 8 is the critical point. The hadronic option also fits, so the claim is possibility rather than proof. The zoomed map peaks at 5.1 sigma, and the connection between the LHAASO source and S106 is positional. If you care about Cygnus, pair this with the Cygnus bubble paper in Tuesday's episode, which assesses a hadronic origin.
+
+Deep dive four. Missing mergers.
+
+Foley measures the host of GW170817. NGC 4993 has a mass-weighted age of 12.4 billion years, which he treats as the delay between star formation and merger. Standard delay-time distributions have a minimum near 10 million years, and predict about 16 mergers at 100 million years for every one at 10 billion. Under that picture, "the chance of detecting even one merger as old as GW170817 is" about 1.8 percent.
+
+A minimum delay of 12.6 billion years is favored by a factor of 40 to 140. These results are "in tension with current population synthesis models, the Milky Way double NS population, and the SGRB population". He offers a different separation distribution, a long-delay channel, or a missed population.
+
+Figure 2 shows the star formation history of NGC 4993. Figure 3 gives the age distribution of its stars. Figure 4 maps the likelihood ratio over minimum delay and power-law index, with the canonical, short-GRB, and Galactic models marked, all far from the peak.
+
+This is two events, and one carries nearly all of the weight, since GW190425 has no host and enters with a flat delay probability. A galaxy's mass-weighted age is an estimate of the delay, so any younger stars in NGC 4993 could host the progenitor. Watch Figure 3 for how much mass is young. It is a provocative result that the next few nearby mergers can test quickly.
+
+Deep dive five. The quiet side of bursty star formation.
+
+JWST found mini-quenched galaxies by accident, in samples favoring bright ones. The OASIS program searched on purpose, with 28-hour NIRSpec prism spectra at redshifts above 4. It finds three mini-quenched galaxies, five lulling galaxies, and 17 close to the main sequence.
+
+Photometry fails here: seven of ten photometric candidates turned out to be nearly on the main sequence or above it. These systems are common and old. Suppressed galaxies are 29 percent of the sample tiers that were not selected on star formation, an order of magnitude more than simulations predict at these masses. "Suppressed phases at z>4 are therefore neither rare nor brief, but a common and lasting part of early galaxy growth."
+
+Figure 1 shows a mini-quenched spectrum at redshift 5, with a Balmer break and no emission lines. Figure 10 puts the sample on the plane of star formation rate and stellar mass, with the suppressed systems far below the main sequence. Figures 11 and 13 show Balmer break strength and stellar age both rising with distance below the main sequence.
+
+For a critical read, the 29 percent is five galaxies out of a small tier, so its uncertainty is large. The prism has low resolution, and Figure 3 warns that metallicities are hard to constrain, so ages inherit that. Figure 10 notes three systems with limits too shallow to classify. A Balmer-line limit also traces only the most recent star formation.
+
+That's the briefing. Today's top read is Skinner and Guedel on R Mon.
